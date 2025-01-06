@@ -9,9 +9,6 @@ export function UserTableRow({ user }: UserTableRowProps) {
   return (
     <tr className="hover:bg-gray-50">
       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-        {user.row_number}
-      </td>
-      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
         <a 
           href={user.Codeium}
           target="_blank"
